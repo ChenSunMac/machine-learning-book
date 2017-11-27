@@ -1,4 +1,3 @@
 # Machine Learning
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
-
+对于**任务T**，在合理的**性能度量方案P**的前提下，计算机程序可以自主学习**任务T**的**经验E**；随着提供合适，优质，大量的**经验E**；该程序对于**任务T**的性能逐步提高。
