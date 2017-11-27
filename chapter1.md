@@ -29,7 +29,7 @@ $$
         &=& x\ln x|^{N}_{1} - \int_1^N x d\ln x \\
         &=& N \ln N - \int_1^N x \frac{1}{x} dx \\
         &=& N\ln N - N + 1 \\
-        \rightarrow N\ln N - N
+        &\rightarrow& N\ln N - N
 \end{eqnarray}
 $$
 
