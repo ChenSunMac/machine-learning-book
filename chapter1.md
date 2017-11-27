@@ -17,7 +17,7 @@
 | $$(u\cdot v)$$ | $$u'v + uv'$$ |
 
 
-### $$N\rightarrow \infty $$
+### $$N\rightarrow \infty \Rightarrow \ln N! \rightarrow N(\ln N - 1) $$
 
 
 
