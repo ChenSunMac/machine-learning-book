@@ -33,3 +33,22 @@ $$
 \end{eqnarray}
 $$
 
+
+### Taylor's theorem and polynomial
+
+$$
+\begin{equation}
+f(x) = f(a) + f'(a)(x - a) + \frac{f''(a)}{2!}(x - a)^2  + ... + \frac{f^{(k)}(a)}{k!}(x - a)^k + R_k(a)
+\end{equation}
+$$
+
+Numerical way of expressing $$e^x$$:
+$$
+\begin{equation}
+f(x) = f(a) + f'(a)(x - a) + \frac{f''(a)}{2!}(x - a)^2  + ... + \frac{f^{(k)}(a)}{k!}(x - a)^k + R_k(a)
+\end{equation}
+$$
+
+
+
+
