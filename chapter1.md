@@ -60,6 +60,8 @@ $$
 \frac{\partial f}{\partial l} = \frac{\partial f}{\partial x}\cos \phi + \frac{\partial f}{\partial y}\sin \phi
 \end{equation}
 $$
+where $\phi$ 是x轴到方向L的转角
+
 
 
 
