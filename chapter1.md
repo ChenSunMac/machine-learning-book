@@ -53,6 +53,13 @@ $$
 
 ### Gradient
 
+如果函数$$z = f(x,y)$$ 在点$$z_1(x,y)$$是 defferential,那么，函数在该点沿任一方向$$L$$的方向导数(
+Directional derivative)都存在:
+$$
+\begin{equation}
+
+\end{equation}
+$$
 
 
 
