@@ -16,21 +16,6 @@
 
 ---
 
-### $$N\rightarrow \infty \Rightarrow \ln N! \rightarrow N(\ln N - 1) $$
-
-$$\ln N! = \ln \prod_{i = 1}^{N} i = \sum_{i = 1}^{N}\ln i \approx \int_1^N \ln x dx$$
-
-$$
-\begin{eqnarray}
-\ln N!  &=& \ln \prod_{i = 1}^{N} i = \sum_{i = 1}^{N}\ln i \approx \int_1^N \ln x dx\\
-        &=& x\ln x|^{N}_{1} - \int_1^N x d\ln x \\
-        &=& N \ln N - \int_1^N x \frac{1}{x} dx \\
-        &=& N\ln N - N + 1 \\
-        &\rightarrow& N\ln N - N
-\end{eqnarray}
-$$
-
----
 
 ### Taylor's theorem and polynomial
 
@@ -70,7 +55,30 @@ $$
 Gradient的方向应该是函数 $$z = f(x,y)$$ 在该点变化最快的方向，所以Gradient descent algorithm 利用$$z = f(x,y)$$ decreases fastest if one goes from $$(x,y)$$  in the direction of the negative gradient of $$z$$ at (x,y), e.g.  $$\nabla f(x,y)$$
 
 
+### Useful approximation: $$N\rightarrow \infty \Rightarrow \ln N! \rightarrow N(\ln N - 1) $$
 
-### 
+$$\ln N! = \ln \prod_{i = 1}^{N} i = \sum_{i = 1}^{N}\ln i \approx \int_1^N \ln x dx$$
+
+$$
+\begin{eqnarray}
+\ln N! &=& \ln \prod_{i = 1}^{N} i = \sum_{i = 1}^{N}\ln i \approx \int_1^N \ln x dx\\
+&=& x\ln x|^{N}_{1} - \int_1^N x d\ln x \\
+&=& N \ln N - \int_1^N x \frac{1}{x} dx \\
+&=& N\ln N - N + 1 \\
+&\rightarrow& N\ln N - N
+\end{eqnarray}
+$$
+
+---
+### Useful function: $$\Gamma(x) = (x-1)\Gamma(x - 1)$$
+$$\Gamma(x)$$ 是阶乘在实数上的推广
+$$
+\begin{eqnarray}
+\Gamma(x) = \int^{\infty}_{0}t^{x-1}e^{-t}dx = (x-1)!
+\end{eqnarray}
+$$
+
+
+
 
 
