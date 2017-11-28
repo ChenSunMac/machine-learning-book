@@ -63,7 +63,7 @@ where $\phi$ 是x轴到方向L的转角
 若$$z = f(x,y)$$在区域D内有一阶连续偏导, 那么对于每一个点 $$P(x,y) \in D$$，梯度是:
 $$
 \begin{equation}
-grad f(x,y) = (\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y})
+\nabla f= grad~f(x,y) = (\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y})
 \end{equation}
 $$
 
