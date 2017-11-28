@@ -20,9 +20,6 @@
 
 $$\ln N! = \ln \prod_{i = 1}^{N} i = \sum_{i = 1}^{N}\ln i \approx \int_1^N \ln x dx$$
 
-```
-a^x + b = c
-```
 $$
 \begin{eqnarray}
 \ln N!  &=& \ln \prod_{i = 1}^{N} i = \sum_{i = 1}^{N}\ln i \approx \int_1^N \ln x dx\\
@@ -61,6 +58,8 @@ $$
 \end{equation}
 $$
 where $\phi$ 是x轴到方向L的转角
+
+
 
 
 
