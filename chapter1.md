@@ -67,6 +67,7 @@ $$
 \end{equation}
 $$
 
+Gradient的方向应该是函数 $$z = f(x,y)$$ 在该点变化最快的方向，所以Gradient descent algorithm 利用$$z = f(x,y)$$ decreases fastest if one goes from $$(x,y)$$  in the direction of the negative gradient of $$z$$ at (x,y), e.g.  $$\nabla f(x,y)$$
 
 
 
