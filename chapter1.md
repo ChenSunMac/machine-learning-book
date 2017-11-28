@@ -62,6 +62,14 @@ $$
 f(\theta x + (1 - \theta)y) \le \theta f(x) + (1-\theta) f(y)
 \end{equation}
 $$
+---
+
+### 一阶可微 & 二阶可微
+
+
+
+
+
 
 ---
 
@@ -91,6 +99,8 @@ $$
           &=& (x - 1) \Gamma(x - 1)
 \end{eqnarray}
 $$
+
+
 
 
 
