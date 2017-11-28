@@ -57,7 +57,7 @@ $$
 Directional derivative)都存在:
 $$
 \begin{equation}
-
+\frac{\partial f}{\partial l} = \frac{\partial f}{\partial x}\cos \phi + \frac{\partial f}{\partial y}\sin \phi
 \end{equation}
 $$
 
