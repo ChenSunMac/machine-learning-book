@@ -57,8 +57,7 @@ Gradient的方向应该是函数 $$z = f(x,y)$$ 在该点变化最快的方向�
 
 ### Useful approximation: $$N\rightarrow \infty \Rightarrow \ln N! \rightarrow N(\ln N - 1) $$
 
-$$\ln N! = \ln \prod_{i = 1}^{N} i = \sum_{i = 1}^{N}\ln i \approx \int_1^N \ln x dx$$
-
+We can observe the following:
 $$
 \begin{eqnarray}
 \ln N! &=& \ln \prod_{i = 1}^{N} i = \sum_{i = 1}^{N}\ln i \approx \int_1^N \ln x dx\\
