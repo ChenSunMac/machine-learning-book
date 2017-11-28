@@ -51,7 +51,7 @@ $$
 
 
 
-### Gradiant
+### Gradient
 
 
 
