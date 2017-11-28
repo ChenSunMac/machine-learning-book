@@ -75,8 +75,9 @@ $$
 \begin{eqnarray}
 \Gamma(x) &=& \int^{\infty}_{0}t^{x-1}e^{-t}dt \\
           &=& - \int^{\infty}_{0}t^{x-1}de^{-t} \\
-          &=& -t^{x-1}e^{-t}|^{\infty}_{0} + \int^{\infty}_{0}e^{-t}dt^{x-1}
-          
+          &=& -t^{x-1}e^{-t}|^{\infty}_{0} + \int^{\infty}_{0}e^{-t}dt^{x-1}\\
+          &=& -{\infty}^{x-1} e^{-\infty} + 0^{x-1}e^{-0} + \int^{\infty}_{0}e^{-t}(x-1)t^{x-2}dt\\
+          &=& (x - 1)\int^{\infty}_{0}t^{x-2}e^{-t}dt
 \end{eqnarray}
 $$
 
