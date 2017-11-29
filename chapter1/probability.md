@@ -21,5 +21,15 @@
     第二个球：N-1种；
     。。。
 ```
-一共 $$N(N-1)(N-2)...(N-n+1) = P^n_N$$
+一共 $$N(N-1)(N-2)...(N-n+1) = P^n_N$$, 所以概率应该是$$\frac{P^n_N}{N^n}$$
+
+
+
+# 条件概率(Conditional Probability)：
+Conditional probability is a measure of the probability of an event given that (by assumption, presumption, assertion or evidence) another event has occurred.
+$$
+\begin{equation}
+P(A|B) = \frac{P(A \cap B)}{P(B)}
+\end{equation}
+$$
 
