@@ -114,4 +114,12 @@ $$
 - $$E(X) = \sum_{k=0}^{\infty} k \frac{\lambda^k}{k!}e^{-\lambda} = \lambda$$
 - $$D(X) = E(X^2) - [E(X)]^2 = \lambda$$
 
+泊松分布的期望值和方差都等于参数$$\lambda$$
 
+### Uniform Distribution
+The probability density function of the continuous uniform distribution is:
+
+$$ 
+f(x) = \frac{1}{b-a} , \forall a \le x \le b,
+$$
+other points, $$f(x) = 0$$
