@@ -149,7 +149,7 @@ The normal distribution is useful because of the central limit theorem. In its m
 
 $$
 \begin{equation}
-f(x|\mu,\sigma^2) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}},~x>0,~\lambda > 0
+f(x|\mu,\sigma^2) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}},~\sigma > 0, -\infty < x < \infty
 \end{equation}
 $$
 
