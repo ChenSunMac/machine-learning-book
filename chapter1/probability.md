@@ -153,6 +153,10 @@ f(x|\mu,\sigma^2) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}
 \end{equation}
 $$
 
+- $$E(X) = \int^{\infty}_{0}  x f(x)dx = \mu$$
+- $$D(X) = E(X^2) - [E(X)]^2 =\sigma^2$$
+
+
 
 
 
