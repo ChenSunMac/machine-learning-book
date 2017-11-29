@@ -157,9 +157,18 @@ $$
 - $$D(X) = E(X^2) - [E(X)]^2 =\sigma^2$$
 
 
-
-
-
-
-
 ### Beta Distribution
+
+The beta distribution has been applied to model the behavior of random variables limited to intervals of finite length in a wide variety of disciplines.
+
+In Bayesian inference, the beta distribution is the conjugate prior probability distribution for the Bernoulli, binomial, negative binomial and geometric distributions. For example, the beta distribution can be used in Bayesian analysis to describe initial knowledge concerning probability of success such as the probability that a space vehicle will successfully complete a specified mission. The beta distribution is a suitable model for the random behavior of percentages and proportions.
+
+
+$$
+\begin{equation}
+f(x) = \frac{1}{B(\alpha, \beta)} x^{\alpha - 1}(1 - x)^{\beta - 1}, x\in[0,1]
+\end{equation}
+$$
+
+
+
