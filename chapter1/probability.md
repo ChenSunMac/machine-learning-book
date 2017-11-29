@@ -145,6 +145,17 @@ $$
 
 
 ### Normal/Gaussian Distribution
+The normal distribution is useful because of the central limit theorem. In its most general form, under some conditions (which include finite variance), it states that averages of samples of observations of random variables independently drawn from independent distributions converge in distribution to the normal, that is, become normally distributed when the number of observations is sufficiently large. Physical quantities that are expected to be the sum of many independent processes (such as measurement errors) often have distributions that are nearly normal.
+
+$$
+\begin{equation}
+f(x|\mu,\sigma^2) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}},~x>0,~\lambda > 0
+\end{equation}
+$$
+
+
+
+
 
 
 ### Beta Distribution
