@@ -119,7 +119,28 @@ $$
 ### Uniform Distribution
 The probability density function of the continuous uniform distribution is:
 
+
 $$ 
 f(x) = \frac{1}{b-a} , \forall a \le x \le b,
 $$
+
+
 other points, $$f(x) = 0$$
+- $$E(X) = \frac{1}{2}(a+b)$$
+- $$D(X) = E(X^2) - [E(X)]^2 = \frac{1}{12}(b-a)^2$$
+
+### Exponential Distribution
+
+Exponential distribution is the probability distribution that describes the time between events in a **Poisson point process**, i.e. a process in which events occur **continuously and independently** at a constant average rate. It is a particular case of the **gamma distribution**. It is the continuous analogue of the geometric distribution, and it has the key property of being memoryless. In addition to being used for the analysis of Poisson point processes it is found in various other contexts.
+
+这里这个函数和泊松分布很像
+$$
+\begin{equation}
+f(x) = \frac{1}{\lambda}e^{\frac{-x}{\lambda}},~x>0,~\lambda > 0
+\end{equation}
+$$
+
+- $$E(X) = \int^{\infty}_{0} x\frac{1}{\lambda}e^{\frac{-x}{\lambda}}dx = \lambda$$
+- $$D(X) = E(X^2) - [E(X)]^2 =\lambda^2$$
+
+
