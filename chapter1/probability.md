@@ -131,7 +131,7 @@ other points, $$f(x) = 0$$
 
 ### Exponential Distribution
 
-Exponential distribution is the probability distribution that describes the time between events in a **Poisson point process**, i.e. a process in which events occur **continuously and independently** at a constant average rate. It is a particular case of the **gamma distribution**. It is the continuous analogue of the geometric distribution, and it has the key property of being memoryless. In addition to being used for the analysis of Poisson point processes it is found in various other contexts.
+Exponential distribution is the probability distribution that describes the time between events in a **Poisson point process**, i.e. a process in which events occur **continuously and independently** at a constant average rate. It is a particular case of the **gamma distribution**. It is the continuous analogue of the geometric distribution, and it has the key property of being **memoryless**. In addition to being used for the analysis of Poisson point processes it is found in various other contexts.
 
 这里这个函数和泊松分布很像
 $$
@@ -144,3 +144,7 @@ $$
 - $$D(X) = E(X^2) - [E(X)]^2 =\lambda^2$$
 
 
+### Normal/Gaussian Distribution
+
+
+### Beta Distribution
