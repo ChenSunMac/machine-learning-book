@@ -80,18 +80,18 @@ $$
 
 ## 期望E() 和 方差 D(X)
 
-期望是概率加权下求平均值
+**期望是概率加权下求平均值**
 - E(X + Y) = E(X) + E(Y)
 - 若 X 和 Y 独立， 则 E(XY) = E(X) E(Y)
 
-方差也写作var
+**方差也写作var**
 $$D(X) = E(X^2) - [E(X)]^2$$
 - $$Var(c) = 0$$
 - $$Var(X+c) = 0$$
 - $$Var(kX) = k^2Var(X)$$
 
 
-协方差 (Covariance), is a measure of the joint variability of two random variables.
+**协方差 (Covariance)**, is a measure of the joint variability of two random variables.
 也就是两个随机变量具有相同方向变化趋势的度量
 
 $$
