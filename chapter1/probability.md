@@ -175,7 +175,7 @@ where
 
 $$
 \begin{equation}
-B(\alpha, \beta) = \int^{1}_{0} x^{\alpah - 1}(1 - x)^{\beta - 1} dx = \frac{\Gamma(\alpha)\Gamma(\beta)}{\Gamma(\alpha + \beta)}
+B(\alpha, \beta) = \int^{1}_{0} x^{\alpha - 1}(1 - x)^{\beta - 1} dx = \frac{\Gamma(\alpha)\Gamma(\beta)}{\Gamma(\alpha + \beta)}
 \end{equation}
 $$
 
