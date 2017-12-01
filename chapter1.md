@@ -66,6 +66,14 @@ $$
 
 ### 一阶可微 & 二阶可微
 
+若 f 一阶可微， 那么 f 为convex function 当且仅当 f 的定义域dom f 为convex，且
+
+
+$$
+\begin{eqnarray}
+\forall x, y \in dom~f, f(y) \ge f(x) + \nabla f(x)^T(y-x)
+\end{eqnarray}
+$$
 
 
 
