@@ -83,8 +83,8 @@ $$
 \nabla ^2f(x) \succeq 0 
 \end{eqnarray}
 $$
-
-
+- 若f是一元函数，$$\succeq 0 $$ 表示二阶导数 大于等于 0
+- 若f是多元函数，$$\succeq 0 $$ 表示 二阶导 Hessian 矩阵半正定
 
 
 
