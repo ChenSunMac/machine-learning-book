@@ -76,6 +76,16 @@ $$
 $$
 
 
+若 f 二阶可微，那么 f 为convex function 当且仅当 f 的定义域dom f 为convex，且
+
+$$
+\begin{eqnarray}
+\nabla ^2f(x) \succeq 0 
+\end{eqnarray}
+$$
+
+
+
 
 
 
