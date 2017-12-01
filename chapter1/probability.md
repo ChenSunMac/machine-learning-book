@@ -180,7 +180,7 @@ B(\alpha, \beta) = \int^{1}_{0} x^{\alpha - 1}(1 - x)^{\beta - 1} dx = \frac{\Ga
 $$
 
 - $$E(X) = \frac{\alpha}{\alpha + \beta}$$
-- $$D(X) = E(X^2) - [E(X)]^2 =\sigma^2$$
+- $$D(X) = E(X^2) - [E(X)]^2 =\frac{\alpha \beta}{(\alpha + \beta)^2}$$
 
 
 
