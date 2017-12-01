@@ -92,13 +92,18 @@ $$D(X) = E(X^2) - [E(X)]^2$$
 
 
 协方差 (Covariance), is a measure of the joint variability of two random variables.
-
+也就是两个随机变量具有相同方向变化趋势的度量
 
 $$
 \begin{equation}
-Cov(X, Y) = E{[ X- E(X) ] [Y - E(Y)] }
+Cov(X, Y) = E{[ X- E(X) ] [Y - E(Y)] }  = E(XY) - E(X) E(Y)
 \end{equation}
 $$
+
+- 若 $$Cov(X, Y) > 0$$, 他们变化趋势相同
+- 若 $$Cov(X, Y) < 0$$, 他们变化趋势相反
+- 若 $$Cov(X, Y) = 0$$, 他们不想关
+
 
 ---
 
