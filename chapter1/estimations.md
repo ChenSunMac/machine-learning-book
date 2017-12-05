@@ -16,6 +16,6 @@ $$
 实际生活中，很多随机现象可以看做许多因素的独立影响的综合反映，往往近似服从正态分布
 
 
-## Maximum likelihood estimation
+## Maximum likelihood estimation (MLE)
 
 
