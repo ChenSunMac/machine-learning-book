@@ -44,5 +44,4 @@ $$
 \begin{equation}
 f(n|p) = \ln (p^n(1-p)^{N-n})
 \end{equation}
-
 $$
