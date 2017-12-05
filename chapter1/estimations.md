@@ -59,7 +59,7 @@ $$
 求高斯分布的MLE:
 ```
 
-STEP1:
+STEP1: Pick the MODEL - Uniform Distribution
 
 $$
 \begin{equation}
