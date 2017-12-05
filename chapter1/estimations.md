@@ -63,9 +63,40 @@ STEP1: Pick the MODEL - Uniform Distribution
 
 $$
 \begin{equation}
-f(x) = frac{1}{\sqrt{2\pi} \sigma} e^{\frac{(x - \mu)^2}{2\sigma^2}}
+f(x) = \frac{1}{\sqrt{2\pi} \sigma} e^{-\frac{(x - \mu)^2}{2\sigma^2}}
 \end{equation}
 $$
+
+
+STEP2: Substitute the SAMPLES:
+
+$$
+\begin{equation}
+L(X) = \prod^{n}_{i=1}\frac{1}{\sqrt{2\pi} \sigma} e^{-\frac{(X_i - \mu)^2}{2\sigma^2}}
+\end{equation}
+$$
+
+STEP3: Take Log on both sides:
+
+$$
+\begin{eqnarray}
+l(X) &=& \sum^{n}_{i=1}\log \frac{1}{\sqrt{2\pi} \sigma} e^{-\frac{(X_i - \mu)^2}{2\sigma^2}} \\
+&=& \sum^{n}_{i=1}\log \frac{1}{\sqrt{2\pi} \sigma} + \sum^{n}_{i=1}\log -\frac{(X_i - \mu)^2}{2\sigma^2} \\
+&=& \frac{-n}{2} \log (2\pi \sigma^2) - \frac{1}{2\sigma^2} \sum^{n}_{i=1}(X_i - \mu)^2
+\end{eqnarray}
+$$
+
+
+STEP4: 对 \mu 和 \sigma 分别求偏导:
+
+$$
+\begin{eqnarray}
+\mu = \frac{1}{n} \sum^{n}_{i=1} X_i
+\sigma^2 = \frac{1}{n} \sum^{n}_{i=1}(X_i - \mu)^2
+\end{eqnarray}
+$$
+
+
 
 
 
