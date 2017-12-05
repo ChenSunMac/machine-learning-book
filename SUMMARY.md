@@ -6,4 +6,5 @@
   * [Probability & Distributions](chapter1/probability.md)
   * [Logistic Function](chapter1/logistic-function.md)
   * [Estimations](chapter1/estimations.md)
+  * Matrix and Linear Algebra
 
