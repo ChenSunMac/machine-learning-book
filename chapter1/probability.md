@@ -126,7 +126,7 @@ P[|X - \mu| \ge \epsilon] \le \frac{\sigma^2}{\epsilon}
 \end{equation}
 $$
 
-
+也就是说 X 的方差越小, X越稳定在期望
 
 
 
