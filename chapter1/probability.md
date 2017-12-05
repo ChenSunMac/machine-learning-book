@@ -118,7 +118,7 @@ $$
 ---
 ## Chebyshev's inequality
 
-
+显示了随机变量的"几乎所有"值都会"接近"**平均**
 
 $$
 \begin{equation}
