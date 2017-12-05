@@ -105,6 +105,8 @@ $$
 - 若 $$Cov(X, Y) = 0$$, 他们不相关
 
 
+**协方差 (Covariance) 矩阵(Matrix)**
+
 ---
 
 ### Bernoulli Distribution
