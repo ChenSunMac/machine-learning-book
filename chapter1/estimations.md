@@ -20,4 +20,13 @@ $$
 
 最大似然估计, a method of **estimating the parameters** of a statistical model **given observations**, by finding the parameter values that **maximize the likelihood** of making the observations given the parameters.
 
-简单来说，就是从采样数据$$[X_1, ..., X_n]$$，以及估计的概率分布模型D,($$f_D(\theta_1,..., \theta_k)$$)，来求概率分布的参数 $$\theta_1,..., \theta_k$$
+简单来说，就是从采样数据$$[X_1, ..., X_n]$$，以及估计的概率分布模型D,($$f_D(\theta_1,..., \theta_k)$$)，来求概率分布的参数 $$\theta_1,..., \theta_k$$;
+
+这里的函数参数是我们通过采样样本数据估计得到的，我们有似然函数:
+
+$$
+\begin{equation}
+L(x_1,x_2,....,x_n; \theta_1,...,\theta_k) = \prod_{i = 1}^n f(x_i; \theta_1, \theta_2, ..., \theta_k)
+\end{equation}
+$$
+
