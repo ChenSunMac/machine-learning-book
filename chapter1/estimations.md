@@ -55,3 +55,18 @@ $$
 \end{equation}
 $$
 
+```
+求高斯分布的MLE:
+```
+
+STEP1:
+
+$$
+\begin{equation}
+f(x) = frac{1}{\sqrt{2\pi} \sigma} e^{\frac{(x - \mu)^2}{2\sigma^2}}
+\end{equation}
+$$
+
+
+
+
