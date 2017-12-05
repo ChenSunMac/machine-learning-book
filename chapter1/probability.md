@@ -105,7 +105,17 @@ $$
 - 若 $$Cov(X, Y) = 0$$, 他们不相关
 
 
-**协方差 (Covariance) 矩阵(Matrix)**
+**协方差 (Covariance) 矩阵(Matrix)**:
+
+对于n个随机向量$$[x_1,x_2,x_3...,x_n]$$, 任意两个元素之间都可以得到一个协方差, 从而形成一个**n*n**的对称矩阵：
+
+$$
+\begin{equation}
+c_{i, j} = E{[ X_i- E(X_i) ] [X_j - E(X_j)] } 
+\end{equation}
+$$
+
+
 
 ---
 
