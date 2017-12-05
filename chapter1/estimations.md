@@ -51,7 +51,7 @@ STEP2:
 
 $$
 \begin{equation}
-\frac{\partial f(p)}{\partial p} = \frac{n}{p} - \frac{N-n}{1-p} \longrightarrow p = \frac{n}{N}
+\frac{\partial f(p)}{\partial p} = \frac{n}{p} - \frac{N-n}{1-p} \longrightarrow \hat p = \frac{n}{N}
 \end{equation}
 $$
 
