@@ -118,11 +118,11 @@ $$
 ---
 ## Chebyshev's inequality
 
-显示了随机变量的"几乎所有"值都会"接近"**平均**
+显示了随机变量的"几乎所有"值都会"接近"**平均**, 也就是stable. 对于随机变量X, 他的期望 $$E = \mu$$, 方差 $$D = \sigma^2$$, 那么
 
 $$
 \begin{equation}
-c_{i, j} = E{[ X_i- E(X_i) ] [X_j - E(X_j)] } 
+P[|X - \mu| \ge \epsilon] \le \frac{\sigma^2}{\epsilon}
 \end{equation}
 $$
 
