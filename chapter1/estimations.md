@@ -91,8 +91,8 @@ STEP4: 对 \mu 和 \sigma 分别求偏导:
 
 $$
 \begin{eqnarray}
-\mu = \frac{1}{n} \sum^{n}_{i=1} X_i \\
-\sigma^2 = \frac{1}{n} \sum^{n}_{i=1}(X_i - \mu)^2
+&\mu = \frac{1}{n} \sum^{n}_{i=1} X_i \\
+&\sigma^2 = \frac{1}{n} \sum^{n}_{i=1}(X_i - \mu)^2
 \end{eqnarray}
 $$
 
