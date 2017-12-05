@@ -115,6 +115,19 @@ c_{i, j} = E{[ X_i- E(X_i) ] [X_j - E(X_j)] }
 \end{equation}
 $$
 
+---
+## Chebyshev's inequality
+
+
+
+$$
+\begin{equation}
+c_{i, j} = E{[ X_i- E(X_i) ] [X_j - E(X_j)] } 
+\end{equation}
+$$
+
+
+
 
 
 ---
