@@ -39,9 +39,19 @@ $$
 ```
 投硬币N次试验，n次朝上，N-n次朝下, 求估计的朝上的概率p:
 ```
+STEP1:
 
 $$
 \begin{equation}
 f(n|p) = \ln (p^n(1-p)^{N-n}) = n\ln p +(N-n)\ln (1 - p)
 \end{equation}
 $$
+
+STEP2:
+
+$$
+\begin{equation}
+\frac{\partial f(p)}{\partial p} = \frac{n}{p} - \frac{N-n}{1-p} \longrightarrow p = \frac{n}{N}
+\end{equation}
+$$
+
