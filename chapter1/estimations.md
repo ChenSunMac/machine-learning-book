@@ -18,4 +18,4 @@ $$
 
 ## Maximum likelihood estimation (MLE)
 
-
+最大似然估计, a method of **estimating the parameters** of a statistical model **given observations**, by finding the parameter values that **maximize the likelihood** of making the observations given the parameters.
