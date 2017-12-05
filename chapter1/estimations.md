@@ -42,6 +42,6 @@ $$
 
 $$
 \begin{equation}
-f(n|p) = \ln (p^n(1-p)^{N-n})
+f(n|p) = \ln (p^n(1-p)^{N-n}) = n\ln p +(N-n)\ln (1 - p)
 \end{equation}
 $$
