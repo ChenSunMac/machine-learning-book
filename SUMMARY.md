@@ -7,4 +7,7 @@
   * [Logistic Function](chapter1/logistic-function.md)
   * [Estimations](chapter1/estimations.md)
   * Matrix and Linear Algebra
+* Python Useful Packages
+  * matplotlib
+  * numpy & scipy
 
