@@ -31,4 +31,5 @@ numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None)
 
 - ones, zeros, eye
 ```py
+
 ```
