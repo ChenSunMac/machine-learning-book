@@ -21,7 +21,7 @@ numpy.array(object, dtype=None, copy=True, order=None, subok=False, ndmin=0)
 ```
 
 
-- arange 创建
+- arange & linsapce 创建
 
 ```py
 numpy.arange(start, stop, step, dtype=None)
