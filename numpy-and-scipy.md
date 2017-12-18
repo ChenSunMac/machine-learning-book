@@ -27,3 +27,8 @@ numpy.array(object, dtype=None, copy=True, order=None, subok=False, ndmin=0)
 numpy.arange(start, stop, step, dtype=None)
 numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None)
 ```
+
+
+- ones, zeros, eye
+```py
+```
