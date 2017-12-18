@@ -9,5 +9,6 @@
   * Matrix and Linear Algebra
 * Python Useful Packages
   * matplotlib
-  * numpy & scipy
+  * [numpy & scipy](numpy-and-scipy.md)
+  * pandas
 
