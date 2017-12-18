@@ -35,3 +35,6 @@ numpy.ones(shape, dtype=None, order='C')
 numpy.zeros(shape, dtype=None, order='C')
 numpy.eye(N, M=None, k=0, dtype=<type 'float'>)
 ```
+
+### NDARRAY METHODS
+
