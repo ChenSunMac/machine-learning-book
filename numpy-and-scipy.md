@@ -38,3 +38,9 @@ numpy.eye(N, M=None, k=0, dtype=<type 'float'>)
 
 ### NDARRAY METHODS
 
+- Transpose: ndarray.T
+- data type: ndarray.dtype
+- imaginary part and real part: ndarray.imag, ndarray.real
+- total Bytes: ndarray.nbytes
+- matrix shape or size : ndarray.shape
+
