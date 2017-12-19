@@ -10,5 +10,5 @@
 * Python Useful Packages
   * matplotlib
   * [numpy & scipy](numpy-and-scipy.md)
-  * pandas
+  * [pandas](pandas.md)
 
