@@ -12,7 +12,7 @@ Multiple Parameters:
 
 $$
 \begin{equation}
-y  = \sum \theta_i x_i
+y  = \sum \theta_i x_i 
 \end{equation}
 $$
 
