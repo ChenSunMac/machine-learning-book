@@ -11,4 +11,5 @@
   * matplotlib
   * [numpy & scipy](numpy-and-scipy.md)
   * [pandas](pandas.md)
+* [Linear Regression](linear-regression.md)
 
