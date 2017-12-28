@@ -41,7 +41,15 @@ p(y^{(i)} | x^{(i)}; ~\theta) =\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(y^{(i)} -
 \end{equation}
 $$
 
-那么基于Maximum Likelihood
+那么基于Maximum Likelihood method, 那么我们有:
+$$
+\begin{equation}
+L(\theta) = \
+\end{equation}
+$$
+
+
+
 
 
 
