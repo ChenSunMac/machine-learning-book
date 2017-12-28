@@ -44,7 +44,7 @@ $$
 那么基于Maximum Likelihood method, 那么我们有:
 $$
 \begin{equation}
-L(\theta) = \
+L(\theta) = \prod_{i = 1}^n 
 \end{equation}
 $$
 
