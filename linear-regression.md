@@ -48,6 +48,8 @@ L(\theta) = \prod_{i = 1}^n \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(y^{(i)} - \
 \end{equation}
 $$
 
+两边同时取对数，我们得到
+
 
 
 
