@@ -50,6 +50,9 @@ $$
 
 两边同时取对数，我们得到
 
+$$
+\log(L(\theta)) = m\log(\frac{1}{\sqrt{2\pi\sigma^2}}) 
+$$
 
 
 
