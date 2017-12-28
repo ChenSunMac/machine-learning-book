@@ -68,7 +68,16 @@ $$
 
 # 求解 $$\theta$$
 
-M个N维样本组成矩阵 $$X_{M\times N}$$
+M个N维样本组成矩阵 $$X_{M\times N}$$, 每一行对应一个样本(Measurement), 每一列对应一个维度(regressors), 通常还会有额外的一列常数项，全为1.
+
+目标函数:
+
+$$
+\begin{equation}
+J(\theta) = \frac{1}{2} (X\theta - y)^T (X\theta - y)
+\end{equation}
+$$
+
 
 
 
