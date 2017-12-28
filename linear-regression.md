@@ -103,6 +103,26 @@ $$
 \end{eqnarray}
 $$
 
+---
+
+在增加了扰动之后，我们的目标函数/平方和损失可以写成如下形式：
+
+- L2 norm: 
+
+$$
+\begin{equation}
+J(\theta) = \frac{1}{2} \sum_{i = 1}^{m} (y^{(i)} - \theta^Tx^{(i)})^2 + \lambda\sum^n_{j=1}\theta^2_j
+\end{equation}
+$$
+
+- L1 norm:
+
+$$
+\begin{equation}
+J(\theta) = \frac{1}{2} \sum_{i = 1}^{m} (y^{(i)} - \theta^Tx^{(i)})^2 + \lambda\sum^n_{j=1}|\theta_j|
+\end{equation}
+$$
+
 
 
 
