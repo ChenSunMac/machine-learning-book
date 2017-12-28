@@ -44,14 +44,14 @@ $$
 那么基于Maximum Likelihood method, 那么我们有:
 $$
 \begin{equation}
-L(\theta) = \prod_{i = 1}^n \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(y^{(i)} - \theta^Tx^{(i)})^2}{2\sigma^2}}
+L(\theta) = \prod_{i = 1}^m \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(y^{(i)} - \theta^Tx^{(i)})^2}{2\sigma^2}}
 \end{equation}
 $$
 
 两边同时取对数，我们得到
 
 $$
-\log(L(\theta)) = m\log(\frac{1}{\sqrt{2\pi\sigma^2}}) 
+\log(L(\theta)) = m\log(\frac{1}{\sqrt{2\pi\sigma^2}}) - \frac{1}{\sigma^2}\frac{1}{2} \sum_{i = 1}^{m} ()
 $$
 
 
