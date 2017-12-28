@@ -78,6 +78,16 @@ J(\theta) = \frac{1}{2} (X\theta - y)^T (X\theta - y)
 \end{equation}
 $$
 
+目标函数的梯度为：
+
+$$
+\begin{eqnarray}
+\nabla_{\theta} J(\theta) &=& \nabla_{\theta}  (\frac{1}{2} (X\theta - y)^T (X\theta - y))\\
+            &=& \nabla_{\theta} (\frac{1}{2} (\theta^TX^TX\theta - \theta^TX^Ty - y^TX\theta + y^Ty )  )                    
+\end{eqnarray}
+$$
+
+
 
 
 
