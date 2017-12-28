@@ -92,11 +92,16 @@ $$
 
 $$
 \begin{eqnarray}
-X^TX\theta = X^Ty \\
 \theta = (X^TX) ^{-1}X^Ty         
 \end{eqnarray}
 $$
+为了防止$$(X^TX)$$不可逆 或者 过度拟合, 我们增加扰动项 ($$\lambda$$)，
 
+$$
+\begin{eqnarray}
+\theta = (X^TX + \lambda I) ^{-1}X^Ty         
+\end{eqnarray}
+$$
 
 
 
