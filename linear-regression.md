@@ -88,6 +88,15 @@ $$
 \end{eqnarray}
 $$
 
+根据最小值求驻点，我们得到:
+
+$$
+\begin{eqnarray}
+X^TX\theta = X^Ty \\
+\theta = (X^TX) ^{-1}X^Ty         
+\end{eqnarray}
+$$
+
 
 
 
