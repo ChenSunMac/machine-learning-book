@@ -64,6 +64,9 @@ J(\theta) = \frac{1}{2} \sum_{i = 1}^{m} (y^{(i)} - \theta^Tx^{(i)})^2
 \end{equation}
 $$
 
+---
+
+
 
 
 
