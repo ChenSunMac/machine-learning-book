@@ -28,7 +28,7 @@ $$
 
 $$
 \begin{equation}
-p(\epsilon^{(i)}) =\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{\epsilon^{(i)}^2}{2\sigma^2}}
+p(\epsilon^{(i)}) =\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(\epsilon^{(i)})^2}{2\sigma^2}}
 \end{equation}
 $$
 
