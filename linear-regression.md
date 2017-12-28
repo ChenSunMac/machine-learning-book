@@ -24,4 +24,11 @@ y^{(i)}  = \theta^T x^{(i)} + \epsilon^{(i)}
 \end{equation}
 $$
 
-其中， $$\epsilon^{(i)} $$ 是误差，在很多随机现象中，该误差可以看作是独立同分布，也就是高斯分布
+其中， $$\epsilon^{(i)} $$ 是误差，在很多随机现象中，该误差可以看作是独立同分布，也就是高斯分布，即
+
+$$
+\begin{equation}
+p(\epsilon^{(i)}) = \ 
+\end{equation}
+$$
+
