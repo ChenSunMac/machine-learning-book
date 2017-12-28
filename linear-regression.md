@@ -16,6 +16,7 @@ y  = \sum \theta_i x_i
 \end{equation}
 $$
 
+---
 ## 用最大似然估计解释最小二乘法(cost function)
 假如我们建立了 Linear Regression 模型 $$\theta^T$$, 那么对应于第i组实际输入和输出，我们有
 
