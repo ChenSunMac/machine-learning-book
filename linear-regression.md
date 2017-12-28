@@ -54,10 +54,12 @@ $$
 \begin{equation}
 \log(L(\theta)) = m\log(\frac{1}{\sqrt{2\pi\sigma^2}}) - \frac{1}{\sigma^2}\frac{1}{2} \sum_{i = 1}^{m} (y^{(i)} - \theta^Tx^{(i)})^2
 \end{equation}
-
 $$
 
 所以我们希望 $$J(\theta)$$ 尽量的小, 这也是和我们的cost function 一致的:
+\begin{equation}
+J(\theta) = \frac{1}{2} \sum_{i = 1}^{m} (y^{(i)} - \theta^Tx^{(i)})^2
+\end{equation}
 
 
 
