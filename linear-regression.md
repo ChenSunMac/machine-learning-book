@@ -83,7 +83,8 @@ $$
 $$
 \begin{eqnarray}
 \nabla_{\theta} J(\theta) &=& \nabla_{\theta}  (\frac{1}{2} (X\theta - y)^T (X\theta - y))\\
-            &=& \nabla_{\theta} (\frac{1}{2} (\theta^TX^TX\theta - \theta^TX^Ty - y^TX\theta + y^Ty )  )                    
+            &=& \nabla_{\theta} (\frac{1}{2} (\theta^TX^TX\theta - \theta^TX^Ty - y^TX\theta + y^Ty )  )        \\
+            &=& \frac{1}{2}(2 X^TX\theta - X^Ty - (y^TX)^T) = X^TX\theta - X^Ty            
 \end{eqnarray}
 $$
 
