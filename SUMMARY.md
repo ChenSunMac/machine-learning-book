@@ -6,7 +6,7 @@
   * [Probability & Distributions](chapter1/probability.md)
   * [Logistic Function](chapter1/logistic-function.md)
   * [Estimations](chapter1/estimations.md)
-  * Matrix and Linear Algebra
+  * [Matrix and Linear Algebra](chapter1/matrix-and-linear-algebra.md)
 * Python Useful Packages
   * matplotlib
   * [numpy & scipy](numpy-and-scipy.md)
