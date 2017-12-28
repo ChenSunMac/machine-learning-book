@@ -56,7 +56,7 @@ $$
 \end{equation}
 $$
 
-所以我们希望cost function尽量的小, 这也是和我们的cost function 一致的:
+所以我们希望cost function尽量的小, 这也是和我们的 quadratic cost function 一致的:
 $$
 \begin{equation}
 J(\theta) = \frac{1}{2} \sum_{i = 1}^{m} (y^{(i)} - \theta^Tx^{(i)})^2
