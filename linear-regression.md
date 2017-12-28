@@ -37,7 +37,7 @@ $$
 
 $$
 \begin{equation}
-p(y^{(i)} | x^{(i)}; ~\theta) =\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(y^{(i)} - \theta^Tx^{(i)})^2}{2\sigma^2}}
+p(y^{(i)} | x^{(i)}; ~\theta) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(y^{(i)} - \theta^Tx^{(i)})^2}{2\sigma^2}}
 \end{equation}
 $$
 
