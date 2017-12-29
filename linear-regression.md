@@ -152,6 +152,16 @@ $$
 
 
 
+# Logistic Regression
+
+这里其实和linear Regression是一类问题，只是我们的模型 $$h_\theta(x)$$ 不再是线性模型，而是Logistic/Sigmoid Function:
+
+$$
+\begin{equation}
+h_\theta(x) = g(\theta^t x) = \frac{1}{1 + e^{-\theta^T x}}
+\end{equation}
+$$
+
 
 
 
