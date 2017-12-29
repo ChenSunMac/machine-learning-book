@@ -12,4 +12,5 @@
   * [numpy & scipy](numpy-and-scipy.md)
   * [pandas](pandas.md)
 * [Linear Regression](linear-regression.md)
+* [Algorithm Sets](algorithm-sets.md)
 
