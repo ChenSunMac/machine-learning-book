@@ -27,3 +27,13 @@ $$
 \end{equation}
 $$
 
+---
+#### 批量梯度下降:
+
+Repeat Until Convergence{
+    $$
+    \begin{equation}
+    \theta_j' = \theta_j + \alpha \sum_{i=1}^{m} ( - h_\theta(x^{(i)}) + y^{(i)})x^{(i)}_j
+    \end{equation}
+    $$
+}
