@@ -143,6 +143,14 @@ $$
 \end{equation}
 $$
 
+二阶导:
+$$
+\begin{equation}
+\nabla^2 |x| \approx \frac{2\alpha e^{\alpha x}}{(1 + e^{\alpha x})^2}
+\end{equation}
+$$
+
+
 
 
 
