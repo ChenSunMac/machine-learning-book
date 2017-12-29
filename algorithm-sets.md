@@ -42,3 +42,12 @@ Repeat Until Convergence{
 ---
 #### 随机梯度下降(Stochastic gradient descent):
 
+Loop{
+    for i = 1 to m, {
+        $$
+        \begin{equation}
+        \theta_j' = \theta_j + \alpha ( - h_\theta(x^{(i)}) + y^{(i)})x^{(i)}_j
+        \end{equation}
+        $$
+    }
+}
