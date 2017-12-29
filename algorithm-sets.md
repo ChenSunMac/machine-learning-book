@@ -10,4 +10,12 @@ J(\theta) = \frac{1}{2} \sum_{i = 1}^{m} ( h_\theta(x^{(i)}) - y^{(i)}  )^2
 \end{equation}
 $$
 
-1. 
+1. 初始化参数$$\theta$$
+2. 沿着负梯度方向迭代，更新后的参数$$\theta'$$ 使得$$J(\theta) $$更小:
+
+$$
+\begin{equation}
+\theta' = \theta - \alpha \frac{\partial J(\theta)}{\partial \theta}
+\end{equation}
+$$
+
