@@ -19,3 +19,11 @@ $$
 \end{equation}
 $$
 
+其中$$\alpha$$是步长，也是learning rate, 梯度方向为:
+
+$$
+\begin{equation}
+\frac{\partial J(\theta)}{\partial \theta_j} = (h_\theta(x) - y)x_j
+\end{equation}
+$$
+
