@@ -37,3 +37,8 @@ Repeat Until Convergence{
     \end{equation}
     $$
 }
+
+
+---
+#### 随机梯度下降(Stochastic gradient descent):
+
