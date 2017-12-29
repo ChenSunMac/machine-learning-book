@@ -125,6 +125,18 @@ $$
 
 ### 如何处理L1-norm的梯度
 
+难度在于如何处理$$|\theta_j|$$这个绝对值的梯度。
+
+近似：
+
+$$
+\begin{equation}
+|x| \approx \frac{1}{\alpha} \log (1 + e^{-\alpha x} + 1 + e^{\alpha x})
+\end{equation}
+$$
+
+
+
 
 
 
