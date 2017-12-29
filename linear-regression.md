@@ -162,6 +162,8 @@ h_\theta(x) = g(\theta^t x) = \frac{1}{1 + e^{-\theta^T x}}
 \end{equation}
 $$
 
+### SoftMax Function
 
+Softmax function, or normalized exponential function is a generalization of the logistic function that "squashes" a K-dimensional vector $$z$$  of arbitrary real values to a K-dimensional vector $$\sigma(z)$$ of real values in the range [0, 1] that add up to 1.
 
 
