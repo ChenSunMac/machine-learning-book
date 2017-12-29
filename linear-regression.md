@@ -137,7 +137,11 @@ $$
 
 其梯度可以近似为:
 
-
+$$
+\begin{equation}
+\nabla|x| \approx \frac{1}{1 + e^{-\alpha x}} - \frac{1}{1 + e^{\alpha x}}
+\end{equation}
+$$
 
 
 
