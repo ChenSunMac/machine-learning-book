@@ -4,3 +4,10 @@ Gradient descent is a first-order iterative optimization algorithm for finding t
 
 目标：找函数极小值
 
+$$
+\begin{equation}
+J(\theta) = \frac{1}{2} \sum_{i = 1}^{m} ( h_\theta(x^{(i)}) - y^{(i)}  )^2
+\end{equation}
+$$
+
+1. 
