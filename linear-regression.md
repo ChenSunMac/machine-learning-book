@@ -210,7 +210,7 @@ Softmax function, or normalized exponential function is a generalization of the 
 
 $$
 \begin{equation}
-h_\theta(x) = g(\theta^t x) = \frac{1}{1 + e^{-\theta^T x}}
+\sigma : R^k \rightarrow [0, 1]^k
 \end{equation}
 $$
 
