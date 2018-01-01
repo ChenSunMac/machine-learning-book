@@ -224,6 +224,13 @@ $$
 
 那么如果我们需要做K-分类的话，第k类的参数为$$\theta_k$$，从而组成一个二维的矩阵 $$\theta_{K\times n}$$
 
+那么样本向量 x 属于第k个分类的概率可以写作：
+
+$$
+\begin{equation}
+p(c = k | x; \theta) = \frac{e^{\theta^T_k x}}{\sum^{K}_{k=1} e^{z_k}}
+\end{equation}
+$$
 
 
 
