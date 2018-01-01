@@ -214,6 +214,17 @@ $$
 \end{equation}
 $$
 
+$$
+\begin{equation}
+\sigma (z)_j = \frac{e^{z_j}}{\sum^{K}_{k=1} e^{z_k}}, ~~j = 1,..., K
+\end{equation}
+$$
+
+
+
+
+
+
 
 
 
