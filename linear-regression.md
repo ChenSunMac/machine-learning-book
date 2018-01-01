@@ -204,18 +204,15 @@ $$
 
 ### SoftMax Function
 
-Softmax function, or normalized exponential function is a generalization of the logistic function that "squashes" a K-dimensional vector $$z$$  of arbitrary real values to a K-dimensional vector $$\sigma(z)$$ of real values in the range \[0, 1\] that add up to 1.
+Softmax function, or normalized exponential function is a generalization of the logistic function that "squashes" a K-dimensional vector $$z$$ of arbitrary real values to a K-dimensional vector $$\sigma(z)$$ of real values in the range \[0, 1\] that add up to 1.
 
+那这个softmax具体怎么解释呢，max的话是直接取最大值，但是这样会导致我们一直取最大，其他相对较小的值会"饥饿"，那么我们希望分值大的那些元素经常能取到，其他的元素偶尔也能够出现，而不至于全部都被滤掉，所以我们用softmax：
 
-
-
-
-
-
-
-
-
-
+$$
+\begin{equation}
+h_\theta(x) = g(\theta^t x) = \frac{1}{1 + e^{-\theta^T x}}
+\end{equation}
+$$
 
 
 
