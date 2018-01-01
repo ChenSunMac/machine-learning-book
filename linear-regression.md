@@ -228,7 +228,7 @@ $$
 
 $$
 \begin{equation}
-p(c = k | x; \theta) = \frac{e^{\theta^T_k x}}{\sum^{K}_{k=1} e^{z_k}}
+p(c = k | x; \theta) = \frac{e^{\theta^T_k x}}{\sum^{K}_{j=1} e^{\theta^T_j x}}
 \end{equation}
 $$
 
