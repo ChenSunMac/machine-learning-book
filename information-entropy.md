@@ -10,10 +10,10 @@ Information entropy is defined as the average amount of information produced by 
 
 也就是说当面对的事件越不确定，相对而言这个事件的信息量就越多，那么信息熵就越大.
 
-Shannon defined the entropy Η of a discrete random variable X with possible values $$\{x_1, ..., x_n\}$$ and its probability $$P(X)$$ as :
+Shannon defined the entropy Η of a discrete random variable X with possible values $$\{x_1, ..., x_n\}$$ and its probability $$p(x)$$ as :
 
 $$
 \begin{equation}
-
+H(X) = -\sum_{i=1}^n p(x) 
 \end{equation}
 $$
