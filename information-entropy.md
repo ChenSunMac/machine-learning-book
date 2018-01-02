@@ -17,3 +17,12 @@ $$
 H(X) = -\sum_{i=1}^n p(x_i) \ln p(x_i) 
 \end{equation}
 $$
+
+---
+
+## Joint Entropy
+
+
+
+
+
