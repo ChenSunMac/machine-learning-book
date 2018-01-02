@@ -232,6 +232,16 @@ p(c = k | x; \theta) = \frac{e^{\theta^T_k x}}{\sum^{K}_{j=1} e^{\theta^T_j x}}
 \end{equation}
 $$
 
+那么根据最大似然估计，我们分别可以写出：
+似然函数：
+
+
+对数似然：
+
+
+随机梯度：
+
+
 
 
 
