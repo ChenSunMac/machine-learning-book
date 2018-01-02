@@ -255,7 +255,7 @@ $$
 
 $$
 \begin{equation}
-\frac{\partial J(\theta)}{\partial \theta_k} = (y_k - p(y_k | x; \theta)) x
+\frac{\partial J(\theta)}{\partial \theta_k} = x(y_k - p(y_k | x; \theta))
 \end{equation}
 $$
 
