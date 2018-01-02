@@ -14,6 +14,6 @@ Shannon defined the entropy Η of a discrete random variable X with possible val
 
 $$
 \begin{equation}
-H(X) = -\sum_{i=1}^n p(x) 
+H(X) = -\sum_{i=1}^n p(x_i) \ln p(x_i) 
 \end{equation}
 $$
