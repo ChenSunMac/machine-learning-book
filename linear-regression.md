@@ -237,13 +237,21 @@ $$
 
 $$
 \begin{equation}
-L(\theta) = \prod^{m}_{i = 1} p(c = k | x^{(i)}; \theta)^{y^{(i)}_k}
+L(\theta) = \prod^{m}_{i = 1} \prod^{K}_{k = 1}p(c = k | x^{(i)}; \theta)^{y^{(i)}_k}
 \end{equation}
 $$
 
 
 
 **对数似然**：
+$$
+\begin{equation}
+L(\theta) = \prod^{m}_{i = 1} p(c = k | x^{(i)}; \theta)^{y^{(i)}_k}
+\end{equation}
+$$
+
+
+
 
 
 **随机梯度**：
