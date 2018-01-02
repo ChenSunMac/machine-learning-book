@@ -233,13 +233,20 @@ p(c = k | x; \theta) = \frac{e^{\theta^T_k x}}{\sum^{K}_{j=1} e^{\theta^T_j x}}
 $$
 
 那么根据最大似然估计，我们分别可以写出：
-似然函数：
+**似然函数**：
+
+$$
+\begin{equation}
+L(\theta) = \prod^{m}_{i = 1} p(c = k | x^{(i)}; \theta)^{y^{(i)}}_k
+\end{equation}
+$$
 
 
-对数似然：
+
+**对数似然**：
 
 
-随机梯度：
+**随机梯度**：
 
 
 
