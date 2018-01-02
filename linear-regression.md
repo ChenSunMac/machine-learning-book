@@ -246,7 +246,7 @@ $$
 **对数似然**：
 $$
 \begin{equation}
-L(\theta) = \sum^{K}_{k = 1}y_k (\theta^T_k x - \ln \sum{K}_{j=1}e^{\theta^T_j x}) 
+L(\theta) = \sum^{K}_{k = 1}y_k (\theta^T_k x - \ln \sum^{K}_{j=1}e^{\theta^T_j x}) 
 \end{equation}
 $$
 
