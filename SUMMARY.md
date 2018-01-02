@@ -13,4 +13,5 @@
   * [pandas](pandas.md)
 * [Linear Regression](linear-regression.md)
 * [Algorithm Sets](algorithm-sets.md)
+* [Information entropy](information-entropy.md)
 
