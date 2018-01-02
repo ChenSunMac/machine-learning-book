@@ -253,6 +253,13 @@ $$
 
 **随机梯度**：
 
+$$
+\begin{equation}
+\frac{\partial J(\theta)}{\partial \theta_k} = (y_k - p(y_k | x; \theta)) x
+\end{equation}
+$$
+
+
 
 
 
