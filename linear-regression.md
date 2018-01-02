@@ -237,7 +237,7 @@ $$
 
 $$
 \begin{equation}
-L(\theta) = \prod^{m}_{i = 1} p(c = k | x^{(i)}; \theta)^{y^{(i)}}_k
+L(\theta) = \prod^{m}_{i = 1} p(c = k | x^{(i)}; \theta)^{y^{(i)}_k}
 \end{equation}
 $$
 
