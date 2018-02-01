@@ -14,4 +14,5 @@
 * [Linear Regression](linear-regression.md)
 * [Algorithm Sets](algorithm-sets.md)
 * [Information entropy](information-entropy.md)
+* [Decision Tree & Random Forest](decision-tree-and-random-forest.md)
 
