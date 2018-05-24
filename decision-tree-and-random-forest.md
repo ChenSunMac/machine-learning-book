@@ -32,7 +32,7 @@ Decision Tree 决策树 是一种树型结构，每个内部节点表示在一�
 ## Overfitting and Solution
 决策树对训练有很好的分类能力，但是泛化能力比较弱，容易overfitting.
 
-**BootStrap Aggregation**, bootstraping 来自成语 'pull up by your own bootstraps'，意为依靠自身力量让自己变得更好。是一种有放回的抽样方法：
+**BootStrap Aggregation （BAGGING）**, bootstraping 来自成语 'pull up by your own bootstraps'，意为依靠自身力量让自己变得更好。是一种有放回的抽样方法：
 1. 从样本中有重复的选出n个样本，
 2. 在所有属性上，对这n个样本建立分类器 （Logistic, SVM, CART, ID3 等等皆可）
 3. 重复以上两步m次，获得m个分类器
