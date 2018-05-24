@@ -29,3 +29,5 @@ Decision Tree 决策树 是一种树型结构，每个内部节点表示在一�
 最后选择信息增益最大的特征作为当前的分裂特征。
 
 
+## Overfitting and Solution
+决策树对训练有很好的分类能力，但是泛化能力比较弱，容易overfitting
