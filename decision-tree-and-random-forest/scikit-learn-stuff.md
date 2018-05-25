@@ -32,5 +32,5 @@ A **decision tree** recursively partitions the space such that the samples with 
 对于第二个问题，信息增益作为标准容易偏向于取值较多的特征的问题。我们使用经验熵：
 $$H(D) = -\sum_{k=1}^{K} \frac{|D_i|}{|D|}\log \frac{|D_i|}{|D|}$$
 
-
+其中n为特征A的类别数， $$D_i$$为特征A的第i个取值对应的样本个数。D为样本个数。
 
