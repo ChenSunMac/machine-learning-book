@@ -21,3 +21,10 @@ A **decision tree** recursively partitions the space such that the samples with 
 
 
 
+#### ID3的不足
+- 没有考虑连续特征，长度，密度等连续特征值没有办法在ID3里用 (Iris example)，基于离散特征
+- ID3 采用沿信息增益大的特征简历决策树的节点，也就是说熵越高 (取值可能性比较多的特征)会比取值少的特征优先，然而他们可能都是完全不确定的
+
+
+
+
