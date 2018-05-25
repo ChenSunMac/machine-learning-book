@@ -15,5 +15,6 @@
 * [Algorithm Sets](algorithm-sets.md)
 * [Information entropy](information-entropy.md)
 * [Decision Tree & Random Forest](decision-tree-and-random-forest.md)
-  * [scikit learn stuff](decision-tree-and-random-forest/scikit-learn-stuff.md)
+  * [Decision Tree in scikit-learn](decision-tree-and-random-forest/scikit-learn-stuff.md)
+  * Adaboost 算法
 

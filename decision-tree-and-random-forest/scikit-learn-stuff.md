@@ -1,1 +1,2 @@
-http://scikit-learn.org/stable/modules/tree.html#classification
+## 决策树 数学模型
+
